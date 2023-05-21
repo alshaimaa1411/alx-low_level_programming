@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(void)
 {
-int n = 0;
+int n;
 
 if (n > 0)
 { printf("is positive\n");
