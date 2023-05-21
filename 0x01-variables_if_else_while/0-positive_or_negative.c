@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(void)
 {
+/* if statment */
 int n = 0;
 
 if (n > 0)
@@ -12,5 +13,5 @@ else if (n < 0)
 else
 { printf("is zero\n");
 };
-return (n);
+return (0);
 }
