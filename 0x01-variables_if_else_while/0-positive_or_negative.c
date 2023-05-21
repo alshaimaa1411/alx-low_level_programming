@@ -1,17 +1,17 @@
 #include<stdio.h>
-int main()
+int main(void)
 {
 /* if statment */
 int n = 0;
 
 if (n > 0)
-{ printf("is positive\n");
+{ printf("%d is positive\n");
 }
 else if (n < 0)
-{ printf("is negative\n");
+{ printf("%d is negative\n");
 }
 else
-{ printf("is zero\n");
+{ printf("%d is zero\n");
 };
 return (0);
 }
