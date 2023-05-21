@@ -1,8 +1,10 @@
 #include<stdio.h>
+#include <stdlib.h>
+#include <time.h>
 int main(void)
 {
 /* if statment */
-int n = 0;
+int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
