@@ -3,7 +3,7 @@ int main(void)
 {
 /* if statment */
 int n = 0;
-n = rand() - RAND_MAx / 2
+n = rand() - RAND_MAx / 2;
 if (n > 0)
 { printf("is positive\n");
 }
