@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(void)
 {
-int n;
+int n = 0;
 
 if (n > 0)
 { printf("is positive\n");
@@ -12,5 +12,5 @@ else if (n < 0)
 else
 { printf("is zero\n");
 };
-return (0);
+return (n);
 }
