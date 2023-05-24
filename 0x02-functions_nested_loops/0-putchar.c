@@ -1,13 +1,19 @@
-#include <stdio.h>
-/* more headers goes there */
+#include "main.h"
 
-/* betty style doc for function main goes there */
+/**
+ * main - Print _putchar
+ * Return: Always 0
+ */
 int main(void)
-{#include <stdio.h>
-	/* more headers goes there */
-
-	/* betty style doc for function main goes there */
-	int main(void)
-	{_putchar();
-		return (0);
-	}
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
+}
