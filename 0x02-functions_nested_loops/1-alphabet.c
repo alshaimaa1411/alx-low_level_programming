@@ -9,15 +9,6 @@ void print_alphabet(void)
 	char x;
 
 	for (x = 'a' ; x <= 'z' ; x++)
-		_putchar(x);
-}
-int main(void)
-{
-	/*
-	 * description main : the main funcation called other funcation
-	 * return : 0
-	 */
-print_alphabet();
+_putchar(x);
 _putchar('\n');
-return (0);
 }
