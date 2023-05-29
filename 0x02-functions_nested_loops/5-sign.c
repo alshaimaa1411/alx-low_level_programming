@@ -19,12 +19,12 @@ int print_sign(int n)
 	}
 	else if (n == 0)
 	{
-		printf("00\n");
+		_putchar(48 + 0);
 return (0);
 	}
 	else
 	{
-		printf("-1\n");
+	_putchar(45 + 0);
 return (-1);
 	}
 }
