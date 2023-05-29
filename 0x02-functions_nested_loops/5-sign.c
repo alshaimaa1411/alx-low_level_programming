@@ -14,7 +14,7 @@ int print_sign(int n)
 {
 	if (n > 0)
 	{
-		printf(43, "\n");
+		_putchar(43 + 0);
 	return (1);
 	}
 	else if (n == 0)
