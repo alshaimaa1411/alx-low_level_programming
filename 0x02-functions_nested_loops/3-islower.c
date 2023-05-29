@@ -7,8 +7,7 @@
  */
 int _islower(int c)
 {
-	if (c => 'a' && c <= 'z')
+	for (c = 97; c <= 122; c++)
 	return (1);
-	else
 		return (0);
 }
