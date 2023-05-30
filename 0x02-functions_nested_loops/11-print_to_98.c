@@ -16,9 +16,7 @@ for (n = n; n <= 98; n++)
 {
 if (n == 98)
 break;
-_putchar(n + '0');
-_putchar(',');
-_putchar(' ');
+printf("%d ,",n);
 }
 }
 if (n >= 98)
@@ -27,9 +25,7 @@ for (n = n; n <= 98; n--)
 {
 if (n == 98)
 break;
-_putchar(n + '0');
-_putchar(',');
-_putchar(' ');
+printf("%d ,", n);
 }
 }
 }
