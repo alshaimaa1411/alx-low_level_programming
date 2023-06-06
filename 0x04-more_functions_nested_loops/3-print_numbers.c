@@ -5,11 +5,11 @@
  *
  */
 
-void print_numbers(void);
+void print_numbers(void)
 {
 	int x;
 
 	for (x = 0; x < 10; x++)
-		_purchar(x)
-			_putchar('\n')
+		_purchar(x);
+			_putchar('\n');
 }
