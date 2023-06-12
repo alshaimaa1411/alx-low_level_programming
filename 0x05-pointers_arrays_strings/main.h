@@ -4,4 +4,5 @@
 #include <stdio.h>
 
 int _strlen(char *s);
+void _puts(char *str);
 #endif /* MAIN_H */
