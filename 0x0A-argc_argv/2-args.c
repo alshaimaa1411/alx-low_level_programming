@@ -9,15 +9,15 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
+int i;
 
-	if (argc > 0)
-	{
-	while (i < argc)
-		{
-		printf("%s\n", argv[i]);
-	}
-	}
-return (0);
+if (argc > 0)
+{
+while (i < argc)
+{
+printf("%s\n", argv[i]);
+i++;
 }
+}
+return (0);
 }
