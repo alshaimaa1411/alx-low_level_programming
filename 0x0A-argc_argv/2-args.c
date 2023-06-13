@@ -13,8 +13,8 @@ int main(int argc, char *argv[])
 
 	if (argc > 0)
 	{
-	for (i = 0; i <= argc - 1; i++)
-	{
+	while (i < argc)
+		{
 		printf("%s\n", argv[i]);
 	}
 	}
