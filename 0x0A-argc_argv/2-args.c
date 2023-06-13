@@ -9,10 +9,12 @@
  */
 int main(int argc, char *argv[])
 {
-while (argc = 1)
-do {
-argc++;
-printf("%d\n", argc);
+	int i;
+
+	for (i = 0; i <= argc - 1; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
 return (0);
 }
 }
