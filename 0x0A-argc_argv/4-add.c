@@ -17,13 +17,10 @@ int main(int argc, char *argv[])
 	{
 		for (c = argv[argc]; *c; c++)
 			if (*c < '0' || *c > '9')
-			{
 				printf("Error\n");
 		return (1);
-			}
-			else
 				x += atoi(argv[argc]);
-		printf("%d\n", x);
-		return (0);
-	}
+			}
+				printf("%d\n", x);
+return (0);
 }
