@@ -16,13 +16,13 @@ return (-1);
 }
 for (int i = 0; i < size; i++)
 {
-if (cmp(array[i]) == 0)
+if (cmp(array[i]) != 0)
 {
-return (-1);
+return (i);
 }
 else
 {
-return (i);
+return (-1);
 }
 }
 }
