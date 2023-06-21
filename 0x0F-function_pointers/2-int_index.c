@@ -10,19 +10,17 @@
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
+int index = 0;
+
 if (array == NULL || cmp == NULL)
-{
 return (-1);
+
+for (; index < size; index++)
+{
+if (cmp(array[index]) != 0)
+return (index);
 }
-for (int i = 0; i < size; i++)
-{
-if (cmp(array[i]) != 0)
-{
-return (i);
-}
-else
-{
+
 return (-1);
-}
-}
+
 }
