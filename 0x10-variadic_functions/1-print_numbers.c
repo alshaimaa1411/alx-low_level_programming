@@ -23,6 +23,6 @@ if (separator != NULL && i < n - 1)
 
 printf("%c", *separator);
 }
-va_end(p);
 printf("\n");
+va_end(p);
 }
