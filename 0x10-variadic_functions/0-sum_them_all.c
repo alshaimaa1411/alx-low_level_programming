@@ -1,5 +1,3 @@
-#include"variadic_functions.h"
-
 /**
  * sum_them_all - sum of int.
  * @n: num of int in fun.
