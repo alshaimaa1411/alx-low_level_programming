@@ -22,6 +22,9 @@ putchar(x);
 putchar(y);
 if (x == 56 && y == 57)
 {
+}
+else
+{
 putchar(',');
 putchar(' ');
 }
