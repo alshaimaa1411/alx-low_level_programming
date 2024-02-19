@@ -2,6 +2,7 @@
 #define MAIN_H
 
 #include <stdio.h>
+#include <string.h>
 
 void print_rev(char *s);
 int _strlen(char *s);
