@@ -12,5 +12,4 @@ for (x = i; x >= 0; x--)
 {
 putchar(s[x]);
 }
-putchar('\n');
 }
