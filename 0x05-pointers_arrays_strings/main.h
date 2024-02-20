@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 
+void puts_half(char *str);
 void print_rev(char *s);
 int _strlen(char *s);
 void _puts(char *str);
