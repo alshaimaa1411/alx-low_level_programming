@@ -4,23 +4,20 @@
  * @str: char to check
  * Return: 0 is success
  */
-void puts_half(char *str)
-{
-int len = strlen(str);
-int i;
+void puts2(char *str){
+int i = 0;
+int x = strlen(str);
 int n;
-
-if (len % 2 != 0)
-{
-n = (len - 1) / 2;
+if (x %2 != 0){
+n = (x - 1) / 2;
 }
-else
-{
-n = len / 2;
+else {
+n = x / 2;
 }
-for (i = 0; i <= n; i++)
+for (i = n; i < = x; i++)
 {
 char temp = str[i];
-putchar(temp);
+putchar(str[i]);
 }
+putchar('\n');
 }
