@@ -17,7 +17,7 @@ else
 {
 n = x / 2;
 }
-for (i = n; i <= x; i++)
+for (i = n; i <= x - 1; i++)
 {
 char temp = str[i];
 putchar(temp);
