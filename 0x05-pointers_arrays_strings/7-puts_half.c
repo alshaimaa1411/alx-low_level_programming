@@ -20,7 +20,7 @@ n = x / 2;
 for (i = n; i <= x; i++)
 {
 char temp = str[i];
-putchar(str[i]);
+putchar(temp);
 }
 putchar('\n');
 }
