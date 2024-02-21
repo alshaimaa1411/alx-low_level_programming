@@ -17,8 +17,8 @@ if (i == n - 1)
 else
 {
 putchar(',');
-}
 putchar(' ');
+}
 }
 printf("\n");
 }
