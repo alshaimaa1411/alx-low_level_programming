@@ -19,7 +19,7 @@ else
 {
 char temp = str[i];
 putchar(temp);
+}
+}
 putchar('\n');
-}
-}
 }
